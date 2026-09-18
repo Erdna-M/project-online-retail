@@ -1,0 +1,26 @@
+# Data — jangan commit file dataset besar
+data/*
+!data/.gitkeep
+
+# Secrets — jangan pernah commit kredensial
+.env
+*.env
+
+# Logs
+logs/*
+!logs/.gitkeep
+
+# Notebooks checkpoints
+notebooks/*
+!notebooks/*.ipynb
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS/editor
+.DS_Store
+.vscode/
